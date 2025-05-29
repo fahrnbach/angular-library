@@ -83,3 +83,24 @@ ng serve
 cd backend
 npm install
 npm start
+```
+# Portfolio Links:
+
+>[🗃️ Live Demo (Angular Library)](https://library.fahrnbach.one)
+>
+>[🌐 Portfolio Site](https://fahrnbach.one)
+>
+>[🎨 Art App](https://art.fahrnbach.one)
+>
+>[📖 Blog App w/ Python CMS](https://blog.fahrnbach.one)
+
+## 📬 Let’s Connect
+
+- 🌐 Portfolio: [fahrnbach.one](https://fahrnbach.one)
+- 💼 LinkedIn: *https://www.linkedin.com/in/fahrnbach*
+- 📧 Email: *jacob@fahrnbach.one*
+
+---
+
+> *“Code is craft. Design is empathy. My goal is to bridge the two.”*
+
