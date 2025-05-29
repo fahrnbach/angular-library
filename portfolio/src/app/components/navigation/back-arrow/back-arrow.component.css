@@ -1,0 +1,14 @@
+button {
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  width: 10%;
+  aspect-ratio: 1/2;
+  color: white;
+  background-color: transparent;
+  border: none;;
+}
+
+button:hover {
+  cursor: pointer;
+}

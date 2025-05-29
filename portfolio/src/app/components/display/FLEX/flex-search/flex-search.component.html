@@ -1,0 +1,28 @@
+<!-- <div class="flex-search-container">
+    <form class="flex-search"
+    [formGroup]="searchForm"
+    (ngSubmit)="onSubmit()">
+    <input class="search-input" type="search" value="Search...">
+    <button>
+      <div class="button-text">
+        Go!
+      </div>
+    </button>
+    <div class="search-icon-container">
+      <img class="search-icon" src="../../../../assets/Search_icon.svg" alt="Search Icon">
+    </div>
+  </form>
+</div> -->
+<div class="flex-search-container">
+    <div [formGroup]="searchForm" class="flex-search">
+    <input formControlName="searchParam" name="search-input" class="search-input" type="search">
+    <button>
+      <div class="button-text">
+        <!-- {{sharedSearchValue}} -->
+      </div>
+    </button>
+    <div class="search-icon-container">
+      <img class="search-icon" src="../../../../assets/Search_icon.svg" alt="Search Icon">
+    </div>
+  </div>
+</div>

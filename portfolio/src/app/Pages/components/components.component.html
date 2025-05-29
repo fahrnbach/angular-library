@@ -1,0 +1,36 @@
+<!-- <h1></h1> -->
+<!-- <div class="layout-container"> -->
+  <div class="search-container">
+    <app-flex-search></app-flex-search>
+    <app-flex-search-filter></app-flex-search-filter>
+    <input type="text">
+        <!-- <Button>Add Component</Button> -->
+  </div>
+@if(!STATE.isloading){
+@if(!STATE.isloading) {
+  <div class="main-container">
+    <h1 style="position: absolute; z-index: 5; color: purple; background-color: red;">{{filterValue}}</h1>
+    @if(STATE.isfiltering){
+      @for (key of filteredComponentsList; track key.id) {
+        <!-- <option [value]="item">{{item}}</option> -->
+        <div class="card-container">
+          <app-zero-v1-flexcard (click)="openComponentModule(key.name, key.id)" [title]="key.name"></app-zero-v1-flexcard>
+        </div>
+      }
+    }
+    @if(!STATE.isfiltering) {
+      @for (key of componentsList; track key.id) {
+        <!-- <option [value]="item">{{item}}</option> -->
+        <div class="card-container">
+          <app-zero-v1-flexcard (click)="openComponentModule(key.name, key.id)" [title]="key.name"></app-zero-v1-flexcard>
+        </div>
+      }
+    }
+  </div>
+}
+}
+@if(STATE.isloading) {
+  <app-loading-spinner-circle></app-loading-spinner-circle>
+}
+<!-- </div> -->
+<app-grid-background></app-grid-background>

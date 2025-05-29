@@ -1,0 +1,46 @@
+.grid-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background: red;
+  grid-template-columns: auto;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: dense;
+  z-index: -1;
+  /* gap: 5px; */
+}
+.grid-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: red;
+  /* gap: 5px; */
+}
+
+.grid-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ff00ff55;
+  background: #202020;
+  /* gap: 5px; */
+}
+
+.grid-items {
+  width: 5%;
+  /* height: 5%; */
+  aspect-ratio: 1/1;
+  /* background-color: #ffffff44; */
+  border: 1px solid white;
+  border: 1px solid #ff00ff55;
+  /* border-top: none; */
+  border-left: none;
+}

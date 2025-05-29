@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Add this to index.html (before the app is bootstrapped) -->
+<div id="loading">
+  <div class="spinner"></div> <!-- Use a spinner or any other loading animation -->
+</div>
+
+<style>
+  #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-size: 60px 60px;
+    /* background-image:
+    linear-gradient(to right, #ff00ff55 1px, transparent 1px),
+    linear-gradient(to bottom, #ff00ff55 1px, transparent 1px); */
+  }
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 50px;
+    height: 50px;
+    animation: spin .2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg) scale(100%); }
+    100% { transform: rotate(360deg) scale(200%); }
+  }
+</style>
+  <app-root></app-root>
+</body>
+</html>

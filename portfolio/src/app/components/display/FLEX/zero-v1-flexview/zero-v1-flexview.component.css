@@ -1,0 +1,103 @@
+.main-container {
+  align-self: center;
+  justify-self: center;
+  /* display: grid;
+  grid-template-rows: 1fr .1fr 5fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  'hero'
+  'name'
+  'info'
+  ; */
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px white;
+  overflow: hidden;
+}
+
+.main-form {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  /* display: flex;
+  align-content: center; */
+  width: 100%;
+  height: 50vh;
+  color: blue;
+  overflow: hidden;
+  grid-area: hero;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  padding: 1rem;
+  font-size: 10rem;
+  color: white;
+  background-color: red;
+  grid-area: name;
+}
+
+.info-container {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  /* justify-items: end; */
+  padding: 1rem;
+  padding-top: 3rem;
+  /* height: 100%; */
+  width: 100%;
+  background-color: rebeccapurple;
+  /* z-index: -1; */
+  grid-area: info;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  justify-content: end;
+  height: 100%;
+  width: 70%;
+  border-radius: 10px;
+  /* background-color: blue; */
+  overflow: hidden;
+}
+
+.info-grid__item__left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(237, 22, 130);
+  background: linear-gradient(90deg, hotpink, rgb(237, 22, 130));
+  color: white;
+  height: 5vh;
+  border-bottom: 2px groove white;
+  /* border-collapse: collapse; */
+  /* border-right: 2px solid black; */
+}
+
+.info-grid__item__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hotpink;
+  background: linear-gradient(-90deg, hotpink, rgb(237, 22, 130));
+  color: white;
+  height: 5vh;
+  /* border: 2px solid hotpink; */
+  /* border-collapse: collapse; */
+  border-bottom: 2px dashed #ffffff33;
+}
+
+/* .code {
+
+} */

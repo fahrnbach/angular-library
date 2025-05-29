@@ -1,0 +1,20 @@
+.grid-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background: red;
+  grid-template-columns: auto;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  z-index: -1;
+  gap: 5px;
+}
+
+.grid-items {
+  width: 10%;
+  height: 10%;
+  background-color: #ffffff44;
+  border: 5px solid white;
+}
