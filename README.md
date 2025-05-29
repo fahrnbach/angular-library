@@ -75,12 +75,12 @@ In building various projects, I noticed I was often re-creating similar UI eleme
 
 ```bash
 # Frontend
-cd portfolio
+cd frontend
 npm install
 ng serve
 
 # Backend
-cd myapp-backend
+cd backend
 npm install
 npm start
 ```
