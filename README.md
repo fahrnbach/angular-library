@@ -1,4 +1,6 @@
-# 🧩 Component Library App (Angular + Node.js) https://library.fahrnbach.one
+# 🧩 Component Library App (Angular + Node.js)
+**Live Site:** [library.fahrnbach.one](https://library.fahrnbach.one)  
+**Repo:** [github.com/fahrnbach/angular-library](https://github.com/fahrnbach/angular-library)  
 
 A custom-built Angular + Node.js application showcasing a growing collection of reusable UI components. Designed for speed, scalability, and elegant user experience, this tool is built to serve as both a personal design system and a technical demonstration of frontend performance, component reuse, and backend integration.
 
